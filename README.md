@@ -114,7 +114,7 @@ The extension uses the Gemini API for processing captured screenshots and genera
 
 ## 📝 License
 
-This project is open-source and available under the MIT License. Feel free to use, modify, and distribute it. 🎉
+This project is open-source and available under the [MIT License](LICENSE). Feel free to use, modify, and distribute it. 🎉
 
 ## 🤝 Contributions
 
