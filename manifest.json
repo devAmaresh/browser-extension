@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Location",
+  "description": "Location",
+  "icons": {
+    "16": "./s.png",
+    "32": "./s.png",
+    "48": "./s.png",
+    "128": "./s.png"
+  },
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "options_page": "settings.html"
+}
